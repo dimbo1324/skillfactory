@@ -1,0 +1,44 @@
+# Исключить настройки VS Code
+.vscode/
+
+# Исключить исполняемые файлы
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Исключить объектные файлы
+*.o
+*.obj
+
+# Исключить временные файлы сборки
+*.log
+*.tmp
+*.pch
+*.gch
+*.class
+
+# Исключить файлы для отладки
+*.pdb
+*.idb
+
+# Исключить сборочные директории
+build/
+bin/
+dist/
+Debug/
+Release/
+
+# Исключить файлы IDE
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.cmake
+CMakeFiles/
+
+# Исключить временные файлы системы
+.DS_Store
+Thumbs.db
